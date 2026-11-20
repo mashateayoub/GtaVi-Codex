@@ -100,9 +100,17 @@ codex plugin marketplace add .
 # 2. Install and enable the plugin
 codex plugin add gtavi-codex@gtavi-codex
 codex plugin list
+```
 
-# 3. Use a skill
-codex skill setup
+## 3. Use a skill
+
+Skills are invoked through natural language prompts:
+
+```bash
+codex "Use gtavi-codex. Set up my GTA 6 clip page, ask me your 4 questions in one message."
+codex "Use gtavi-codex. Find live GTA 6 clipping campaigns."
+codex "Use gtavi-codex. Rank today's trending GTA 6 videos."
+codex "Use gtavi-codex. Cut a 1080x1920 vertical clip with captions and a hook."
 ```
 
 ## Credits
