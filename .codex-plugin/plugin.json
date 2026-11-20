@@ -1,7 +1,7 @@
 {
   "name": "gtavi-codex",
   "version": "0.1.0",
-  "description": "Run a faceless GTA 6 clip desk: find campaigns, trends and moments, cut captioned vertical clips, check the rules, learn from real numbers.",
+  "description": "Codex port of Bodila51/gtavi-claudecode: a faceless GTA 6 clip desk — find campaigns, trends and moments, cut captioned vertical clips, check the rules, learn from real numbers.",
   "author": {
     "name": "Bodila51",
     "url": "https://github.com/Bodila51"

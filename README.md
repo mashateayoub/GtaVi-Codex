@@ -16,8 +16,9 @@
 </div>
 
 ```
-codex plugin marketplace add gtavi-codex .
-codex plugin add gtavi-codex .
+# From inside this plugin directory
+codex plugin marketplace add .
+codex plugin add gtavi-codex@gtavi-codex
 ```
 
 Two lines in Codex. In 10 minutes you have: the tools installed, your page folder, today's trending GTA 6 videos, the best moments picked and your first vertical clips ready to post.
@@ -93,15 +94,19 @@ Windows, macOS or Linux, Python 3.10+. An NVIDIA GPU makes transcription faster;
 ## Install & verify
 
 ```bash
-# 1. Add the local plugin marketplace (this repo)
-codex plugin marketplace add gtavi-codex .
+# 1. Add the local plugin marketplace (from inside this plugin directory)
+codex plugin marketplace add .
 
 # 2. Install and enable the plugin
-codex plugin add gtavi-codex .
+codex plugin add gtavi-codex@gtavi-codex
 codex plugin list
 
 # 3. Use a skill
 codex skill setup
 ```
+
+## Credits
+
+This Codex plugin is a port of [Bodila51/gtavi-claudecode](https://github.com/Bodila51/gtavi-claudecode), the original Claude Code plugin for running a faceless GTA 6 clipping page. All skills, scripts, and the workflow design come from that project; this port adapts them to the Codex plugin format (`.codex-plugin/plugin.json`, `.agents/plugins/marketplace.md`, `SKILL.md` skills) with no functional changes beyond the plugin-root path substitution (`${CLAUDE_PLUGIN_ROOT}` → `${PLUGIN_ROOT}`).
 
 MIT license.
