@@ -1,0 +1,20 @@
+{
+  "name": "gtavi-codex",
+  "interface": {
+    "displayName": "GTA 6 Clip Desk"
+  },
+  "plugins": [
+    {
+      "name": "gtavi-codex",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Content Creation"
+    }
+  ]
+}

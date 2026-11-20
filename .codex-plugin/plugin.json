@@ -1,0 +1,33 @@
+{
+  "name": "gtavi-codex",
+  "version": "0.1.0",
+  "description": "Run a faceless GTA 6 clip desk: find campaigns, trends and moments, cut captioned vertical clips, check the rules, learn from real numbers.",
+  "author": {
+    "name": "Bodila51",
+    "url": "https://github.com/Bodila51"
+  },
+  "homepage": "https://github.com/Bodila51/gtavi-claudecode",
+  "repository": "https://github.com/Bodila51/gtavi-claudecode",
+  "license": "MIT",
+  "keywords": ["gta6", "gta-6", "clipping", "video", "shorts", "whop"],
+  "skills": "./skills/",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "GTA 6 Clip Desk",
+    "shortDescription": "Run a faceless GTA 6 clip desk. Find campaigns, trends, moments — cut captioned vertical clips. You approve every post.",
+    "longDescription": "A Codex plugin for running a faceless GTA 6 clipping page with the fewest human actions. Find live clipping campaigns (rate per 1K views, budget left, rules), rank recent GTA 6 videos by views per hour, find live GTA 6 streams, score the best moments in long videos, record live streams and clip chat spikes, cut 1080x1920 vertical clips with word-by-word captions and a hook box, translate clips into 5 languages, check clips against campaign rules before posting, turn repeated fan questions into HOW TO posts, build a verified secrets map, and track payouts from real numbers only. Nothing is uploaded automatically — you approve every post.",
+    "developerName": "Bodila51",
+    "category": "Content Creation",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/Bodila51/gtavi-claudecode",
+    "defaultPrompt": [
+      "Use gtavi-codex. Set up my GTA 6 clip page, ask me your 4 questions in one message, then do everything after one 'yes'.",
+      "Find live GTA 6 clipping campaigns and rank today's trending videos.",
+      "Cut a 1080x1920 vertical clip from a moment with captions and a hook.",
+      "Check a clip against campaign rules before posting."
+    ],
+    "logo": "./.codex-plugin/icon.png",
+    "brandColor": "#e8457f",
+    "screenshots": []
+  }
+}
