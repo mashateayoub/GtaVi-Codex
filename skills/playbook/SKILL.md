@@ -13,6 +13,7 @@ description: Run the daily GTA 6 page routine from the full playbook. Use when t
    - Find material: `trend-radar`, `stream-finder`, `campaign-finder`.
    - Cut clips: `moment-finder`, then `clip-cutter`, with hooks from `hook-writer`.
    - Gate every clip with `rule-check`.
+   - Upload to YouTube Shorts with `youtube-upload` (optional, user approves privacy before public).
    - Log and learn with `learning-loop`.
 5. Send the human ONE message with the exact caption, media path and credit for each post. They reply "yes" to approve. They post it themselves or schedule it. Never auto-upload.
 6. End the day with the short report (section 16): what posted, top post with numbers, one lesson, tomorrow's test.

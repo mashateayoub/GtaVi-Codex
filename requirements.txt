@@ -5,3 +5,6 @@ yt-dlp[default]>=2026.10.26
 deep-translator>=1.11
 edge-tts>=6.1
 opencv-python-headless>=4.9
+google-api-python-client>=2.15
+google-auth-httplib2>=0.1
+google-auth-oauthlib>=1.2

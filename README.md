@@ -70,6 +70,7 @@ No income is promised. Your result depends on speed, picks and hooks, and the sc
 | `cheat-codes` | All reported GTA 6 cheat codes with unlock tasks and sources, turned into a 4-slide cheat carousel |
 | `playbook` | Your full daily routine and launch-day plan |
 | `learning-loop` | Scoreboard, one test per day, payouts from real numbers only |
+| `youtube-upload` | Uploads a finished clip to YouTube as a Short (vertical 1080x1920, #Shorts tag). One-time OAuth setup, auto-generated title/description with creator credit, privacy default private for review. Nothing is auto-uploaded — you approve before public. |
 
 Nothing is uploaded automatically. You approve every post.
 

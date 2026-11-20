@@ -9,7 +9,7 @@
   "homepage": "https://github.com/Bodila51/gtavi-claudecode",
   "repository": "https://github.com/Bodila51/gtavi-claudecode",
   "license": "MIT",
-  "keywords": ["gta6", "gta-6", "clipping", "video", "shorts", "whop"],
+  "keywords": ["gta6", "gta-6", "clipping", "video", "shorts", "whop", "youtube", "youtube-shorts", "upload"],
   "skills": "./skills/",
   "requires_local_executor": true,
   "interface": {
